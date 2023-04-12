@@ -1,0 +1,22 @@
+{
+    "name": "yunasonbae/praktika-gr-1",
+    "description": "mama",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuna",
+            "email": "lpsstarsanuta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
